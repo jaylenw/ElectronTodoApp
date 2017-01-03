@@ -2,7 +2,7 @@
 An Electron TodoApp or Note Taking Application. Create and Archive Notes in this application designed to be deployed for Linux, Mac, and Windows.
 
 Website version of this app found [here](https://github.com/jaylenw/AngularJsTodoApp).
-Android version of this app is in development [here](https://github.com/jaylenw/IonicTodoApp).
+Android version of this app is found [here](https://github.com/jaylenw/IonicTodoApp).
 
 ##Description
 
