@@ -51,7 +51,7 @@ Assuming you have ran the above commands, simple run `npm run build`. This will 
 ### Setting up the Backend
 
 Note: Change the javascript file in /www/js/services/, config.js,  to have your url and port number
-   that will be directing requests to your backend for the `_apiUrl` variable. Do not change anything after the port number. Forever (server we will be using) by defualt listens to port 3000. Replace "yourdomain.com" with the domain you will be using. It will look like this, "http://yourdomain.com/3000"
+   that will be directing requests to your backend for the `_apiUrl` variable. Do not change anything after the port number. Forever (server we will be using) by default listens to port 3000. Replace "yourdomain.com" with the domain you will be using. It will look like this, "http://yourdomain.com/3000"
 
 1. The backend for this app is found here at this repo: https://github.com/jaylenw/ToDoBackend
 
