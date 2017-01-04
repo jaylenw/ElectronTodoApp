@@ -1,0 +1,42 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+    <ion-header-bar class="bar-stable">
+      <h1 class="title">Menu</h1>
+    </ion-header-bar>
+    <ion-content>
+      <ion-list>
+        <ion-item menu-close ng-hide="token" ng-click="login()">
+          Login <i class="icon ion-log-in"></i>
+        </ion-item>
+        <ion-item menu-close ng-show="token" ng-click="logout()">
+          Logout <i class="icon ion-log-out"></i>
+        </ion-item>
+        <ion-item menu-close ng-hide="token" ng-click="register()">
+          Register <i class="icon ion-ios-personadd-outline"></i>
+        </ion-item>
+        <ion-item menu-close href="#/app/notes">
+          Notes <i class="icon ion-ios-paper-outline"></i>
+        </ion-item>
+        <ion-item menu-close ng-show="token" href="#/app/archives">
+          Archived Notes <i class="icon ion-ios-box-outline"></i>
+        </ion-item>
+        <ion-item menu-close ng-show="token" ng-click="createNote()">
+          Create New Note <i class="icon ion-ios-compose-outline"></i>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
