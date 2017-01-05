@@ -27,8 +27,8 @@ Users are able to use this App as a Todo-List or a Note Taking application.
         sudo npm install -g npm
         sudo dpkg --add-architecture i386
         sudo add-apt-repository ppa:wine/wine-builds
-        sudo apt-get update
-        sudo apt-get install --install-recommends winehq-devel
+        sudo apt update
+        sudo apt install --install-recommends winehq-devel
         
   If you prefer to use the Staging branch, replace `winehq-devel` with `winehq-staging` in the line above.
         
@@ -59,7 +59,7 @@ Note: Change the javascript file in js/services/, config.js,  to have your url a
    You can use [forever](https://www.npmjs.com/package/forever) to run the backend server and autorestart it.
 
 3. Next, install mongodb on your system globally and have it running. If on a Ubuntu/Debian system, you would run
-   `sudo apt-get install mongodb`.
+   `sudo apt install mongodb`.
 
 4. After having cloned the repo linked above and are in the root of the folder, run `npm install && bower install`.
 
