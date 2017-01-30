@@ -20,7 +20,8 @@ Users are able to use this App as a Todo-List or a Note Taking application.
 
 1. Need to have [Nodejs](https://nodejs.org/en/) and [NPM](https://www.npmjs.com/) installed on your system globally. This guide assumes you are running a 16.04 LTS 64bit Ubuntu system. If running a Debian/Ubuntu system and you do not have the packages installed globally, run these commands below:
 
-        sudo apt update  
+        sudo apt update
+        sudo apt install git
         sudo apt install nodejs  
         sudo ln -s /usr/bin/nodejs /usr/bin/node  
         sudo apt install npm
