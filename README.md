@@ -6,7 +6,7 @@ Android version of this app is found [here](https://github.com/jaylenw/IonicTodo
 
 This repo is designed for you to deploy your own backend and edit the necessary files here to work with it. However, I will soon provide a production version of this by providing the binaries where anyone may install it, sign up, and use it themselves.
 
-##Description
+## Description
 
 Users are able to use this App as a Todo-List or a Note Taking application.
 
