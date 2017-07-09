@@ -14,8 +14,8 @@ before_script:
 - sudo apt install mono-complete -y
 - sudo apt update
 - sudo apt install --install-recommends winehq-devel -y
-- npm install
 script:
+- npm install
 - npm run build
 - tar -czf build.tar.gz dist
 deploy:
