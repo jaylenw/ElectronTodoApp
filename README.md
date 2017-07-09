@@ -1,4 +1,4 @@
-# ElectronTodoApp
+# ElectronTodoApp [![Build Status](https://travis-ci.org/jaylenw/ElectronTodoApp.svg?branch=master)](https://travis-ci.org/jaylenw/ElectronTodoApp)
 An Electron TodoApp or Note Taking Application. Create and Archive Notes in this application designed to be deployed for Linux, Mac, and Windows.
 
 Website version of this app found [here](https://github.com/jaylenw/AngularJsTodoApp).
@@ -27,12 +27,15 @@ Users are able to use this App as a Todo-List or a Note Taking application.
         sudo apt install npm
         sudo npm install -g npm
         sudo dpkg --add-architecture i386
-        sudo add-apt-repository ppa:wine/wine-builds
+        wget -nc https://dl.winehq.org/wine-builds/Release.key
+        sudo apt-key add Release.key
+        sudo apt-add-repository https://dl.winehq.org/wine-builds/ubuntu/
+        sudo apt install mono-complete -y
         sudo apt update
-        sudo apt install --install-recommends winehq-devel
-        
-  If you prefer to use the Staging branch, replace `winehq-devel` with `winehq-staging` in the line above.
-        
+        sudo apt install --install-recommends winehq-devel -y
+
+  If you prefer to use the Staging  or Stable branch, replace `winehq-devel` with `winehq-staging` or `winehq-stable` in the line above.
+
 
 2. Clone this repo.
 
