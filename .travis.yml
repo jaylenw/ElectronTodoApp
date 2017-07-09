@@ -17,7 +17,7 @@ before_script:
 - npm install
 script:
 - npm run build
-- zip -r builds.zip dist
+- tar -czf build.tar.gz dist
 deploy:
   provider: releases
   api_key:
