@@ -1,0 +1,17 @@
+sudo: false
+language: node_js
+node_js:
+  - "4.2.6"
+
+before_script:
+  - dpkg --add-architecture i386
+  - wget -nc https://dl.winehq.org/wine-builds/Release.key
+  - apt-key add Release.key
+  - apt-add-repository https://dl.winehq.org/wine-builds/ubuntu/
+  - apt install mono-complete -y
+  - apt update
+  - apt install --install-recommends winehq-devel -y
+  - npm install
+
+script:
+  npm run build #runs the process to building the packages
