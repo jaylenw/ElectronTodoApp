@@ -24,7 +24,7 @@ function createMainWindow() {
 	win.loadURL(`file://${__dirname}/index.html`);
 
 	//open the devtools
-	//win.webContents.openDevTools();
+	win.webContents.openDevTools();
 
 	win.on('closed', onClosed);
 
