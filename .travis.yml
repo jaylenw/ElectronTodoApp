@@ -22,7 +22,7 @@ deploy:
   provider: releases
   api_key:
     secure: M82Z/bkQcUjIsBKaH1NsYHnYsXymq6eO2UywwBMRC4473goHctTDMo3U+sFKeykeH65MqigoTHMK1QYlCyErIr3+hcbDgb5XDwD16NaHmTgh9B8+1pcbFkkCqj6zP0j2389DRfu+WTIJLgcptYi6Hd4NHpiMa2rhhQVeZ2Qr05Q0qc6ePDDxXPCcp6OsinFKq8JL/nl3i1HIZb4RLkyxntiuB2eE6b588BewAKYyg28+HQ3Aht4a2/CshabhzD6PanUeYDUaL6sLdpsbes/R5lQ3XAGkJ9ZSmaKAaBiiw/Exn6PWL5opNkPa+LfCQJdgeA9JmggnyJvJzXjHu7yon3EmXd1I3NBPySermmWIVNeWbkiJTu8SLIot3Y5iqiTsOUl6eTU9mwZxY8C7p1GNzW2viuTbE+aNYSgpHytmPc7gTUQ2c2q+ymi/pPbw6xh1o9A9xpHNXkudDvr2LRNP5DoIvFNpG2+E7ZdpDBnc8rOd18jt5JcrwBY1l4IUQxdSmP+0i6Y0YjwX/qB8WDmOSQcMdM3PT/DmV1lB4z2RR0INUsIdKmo6rXZNGuEfHz5c+wGGbnZ+pEBXiFGFWHDfxZXXkLzN7VlziVpIrD2VoHOd75pzhfWK+lmMAf+R3qwsAB8bW+cXfSO160jupdCYndsGeMrZ5hhj9zAs6DD/kWE=
-  file: builds.zip
+  file: build.tar.gz
   skip_cleanup: true
   on:
     tags: true
