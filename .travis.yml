@@ -4,7 +4,7 @@ node_js:
   - "4.2.6"
 
 before_script:
-  - dpkg --add-architecture i386
+  - dpkg --foreign-architecture i386 #for travis ubuntu version
   - wget -nc https://dl.winehq.org/wine-builds/Release.key
   - apt-key add Release.key
   - apt-add-repository https://dl.winehq.org/wine-builds/ubuntu/
@@ -14,4 +14,4 @@ before_script:
   - npm install
 
 script:
-  npm run build #runs the process to building the packages
+  npm run build #runs the process to begin building the packages
