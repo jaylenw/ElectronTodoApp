@@ -1,10 +1,14 @@
 sudo: false
+dist: trusty
+cache:
+  directories:
+    - "node_modules"
 language: node_js
 node_js:
   - "4.2.6"
 
 before_script:
-  - dpkg --foreign-architecture i386 #for travis ubuntu version
+  - dpkg --add-architecture i386
   - wget -nc https://dl.winehq.org/wine-builds/Release.key
   - apt-key add Release.key
   - apt-add-repository https://dl.winehq.org/wine-builds/ubuntu/
