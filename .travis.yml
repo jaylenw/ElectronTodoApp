@@ -4,10 +4,8 @@ language: node_js
 node_js:
 - 4.2.6
 
-before_install:
-- sudo npm install -g npm@4.2.6
-
 before_script:
+- sudo npm install -g npm@4.2.6
 - sudo dpkg --add-architecture i386
 - wget -nc https://dl.winehq.org/wine-builds/Release.key
 - sudo apt-key add Release.key
