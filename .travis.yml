@@ -4,7 +4,8 @@ language: node_js
 node_js:
 - 4.2.6
 
-before_install: if [[ `npm -v` != 4.2.6 ]]; then sudo npm i -g npm@4.2.6; fi
+before_install:
+- sudo npm install -g npm@4.2.6
 
 before_script:
 - sudo dpkg --add-architecture i386
