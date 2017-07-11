@@ -12,6 +12,9 @@ before_script:
 - sudo apt-key add Release.key
 - sudo apt-add-repository https://dl.winehq.org/wine-builds/ubuntu/
 - sudo apt install mono-complete -y
+- sudo apt install dpkg -y
+- sudo apt install fakeroot -y
+- sudo apt install rpm -y
 - sudo apt update
 - sudo apt install --install-recommends winehq-devel -y
 script:
