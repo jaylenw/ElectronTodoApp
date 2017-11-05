@@ -27,17 +27,6 @@ else
   echo "Node.js is already installed!";
 fi
 
-echo "Installing npm..."
-if [ "`dpkg -s npm | grep "installed"`" = "" ]; then
-  sudo apt install npm -y
-  echo "npm installed!"
-else
-  echo "npm is already installed!";
-fi
-
-echo "Installing npm packages..."
-sudo npm install -g npm
-
 echo "Configuring architecture i386..."
 sudo dpkg --add-architecture i386
 
