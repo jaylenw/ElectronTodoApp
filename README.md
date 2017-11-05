@@ -24,10 +24,9 @@ Users are able to use this App as a Todo-List or a Note Taking application.
 
         sudo apt update
         sudo apt install git
+        sudo curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
         sudo apt install nodejs  
-        sudo ln -s /usr/bin/nodejs /usr/bin/node  
-        sudo apt install npm
-        sudo npm install -g npm
+        sudo ln -s /usr/bin/nodejs /usr/bin/node
         sudo dpkg --add-architecture i386
         wget -nc https://dl.winehq.org/wine-builds/Release.key
         sudo apt-key add Release.key
