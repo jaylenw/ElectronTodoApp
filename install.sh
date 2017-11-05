@@ -18,6 +18,7 @@ fi
 
 echo "Installing Node.js..."
 if [ "`dpkg -s nodejs | grep "installed"`" = "" ]; then
+  sudo curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
   sudo apt install nodejs -y
   echo "Configuring Node.js ..."
   sudo ln -s /usr/bin/nodejs /usr/bin/node
