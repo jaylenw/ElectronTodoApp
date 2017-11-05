@@ -5,7 +5,7 @@ cache:
   - node_modules
 language: node_js
 node_js:
-- 4.2.6
+- 4.8.5
 before_script:
 - sudo dpkg --add-architecture i386
 - wget -nc https://dl.winehq.org/wine-builds/Release.key
