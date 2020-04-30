@@ -1,3 +1,5 @@
+# No Longer in Active Development
+
 # ElectronTodoApp [![Build Status](https://travis-ci.org/jaylenw/ElectronTodoApp.svg?branch=master)](https://travis-ci.org/jaylenw/ElectronTodoApp)
 An Electron TodoApp or Note Taking Application. Create and Archive Notes in this application designed to be deployed for Linux, Mac, and Windows.
 
