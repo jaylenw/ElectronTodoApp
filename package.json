@@ -25,7 +25,7 @@
     "electron"
   ],
   "dependencies": {
-    "angular": "~1.6.1",
+    "angular": "~1.7.9",
     "electron-debug": "~1.0.0",
     "ng-showdown": "~1.1.0"
   },
